@@ -7,7 +7,7 @@ function Nav() {
         <nav>
             <div className="nav-bg">
                 <BasicMenu />
-                <buttonUnstyledClasses className="time-tab">11:26</buttonUnstyledClasses>
+                <button className="time-tab">11:26</button>
             </div>
         </nav>
     );
