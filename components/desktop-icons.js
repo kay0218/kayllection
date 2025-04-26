@@ -29,7 +29,7 @@ function DesktopIcons() {
         </button>
         <Dialog open={open}>
           <DialogTitle>About Me!</DialogTitle>
-          <p>lorem ipsum blah blah blah</p>
+          <p style={{margin: '10px'}}>This dialogue is a work in progress! Please check back soon </p>
           <button onClick={handleDialogClose}>Close</button>
         </Dialog>
       </div>
