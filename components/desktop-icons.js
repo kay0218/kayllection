@@ -2,7 +2,7 @@
 
 
 import React from "react";
-import '../css/nav-bg.scss';
+import './css/nav-bg.scss';
 import DialogTitle from '@mui/material/DialogTitle';
 import Dialog from '@mui/material/Dialog';
 

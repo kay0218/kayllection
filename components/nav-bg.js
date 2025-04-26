@@ -1,6 +1,6 @@
 "use client";
 
-import '../css/nav-bg.scss';
+import './css/nav-bg.scss';
 import BasicMenu from './start-menu';
 
  

@@ -1,7 +1,7 @@
 import DesktopIcons from "@/components/desktop-icons";
 import KayLogo from "@/components/kay-logo";
 import Nav from "@/components/nav-bg";
-import "../css/stylesheet.scss";
+import "./stylesheet.scss";
 
 export default function Home() {
   return (

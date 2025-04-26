@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import '../css/kay-logo.modules.scss';
+import './css/kay-logo.modules.scss';
 
 
 function KayLogo() {

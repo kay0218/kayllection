@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { Menu } from '@base-ui-components/react/menu';
-import '../css/nav-bg.scss';
+import './css/nav-bg.scss';
 
 export default function BasicMenu() {
   return (
