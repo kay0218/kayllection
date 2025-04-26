@@ -19,7 +19,7 @@ function DesktopIcons() {
         <div>
             <div className="icon-one">
                 <button onClick={handleDialogOpen} cursor="pointer" >
-                    <img id="desktop-icons" src="/kayllection/public/images/about-me-icon.png" alt="Icon for about me modal" />
+                    <img id="desktop-icons" src="../../images/about-me-icon.png" alt="Icon for about me modal" />
                     <br />
                     <p id="desktop-p-one" >About Me</p>
                 </button>
@@ -32,7 +32,7 @@ function DesktopIcons() {
             <br />
             <a target="_blank" href="https://kay0218.github.io/RED/" rel="noreferrer">
                 <div className="icon-two">
-                    <img id ="desktop-icons" src="/kayllection/public/images/red-icon.png" alt="icon for my first webpage" />
+                    <img id ="desktop-icons" src="../../images/red-icon.png" alt="icon for my first webpage" />
                     <br />
                     <p id="desktop-p-two">RED</p>
                 </div>
