@@ -1,13 +1,11 @@
 export const metadata = {
-  title: "Kay's code collection"
+  title: "Kay's code collection",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
