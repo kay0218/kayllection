@@ -1,5 +1,5 @@
- import '../css/nav-bg.scss';
-import BasicMenu from '../components/start-menu';
+ import '/kayllection/src/css/nav-bg.scss';
+import BasicMenu from '/kayllection/src/components/start-menu';
 
  
 function Nav() {

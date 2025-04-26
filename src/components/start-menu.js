@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import { Menu } from '@base-ui-components/react/menu';
-import '../css/nav-bg.scss';
+import '/kayllection/src/css/nav-bg.scss';
 
 export default function BasicMenu() {
   return (
@@ -17,26 +17,26 @@ export default function BasicMenu() {
             <Menu.Arrow />
 
             <Menu.Item className="menuitem" onSelect={() => console.log('Folder clicked')}>
-              <img src='../../images/folders-icon.png' alt='folders icon' id="icons" />
+              <img src='/kayllection/public/images/folders-icon.png' alt='folders icon' id="icons" />
               Folder
             </Menu.Item>
 
             <a href='https://www.linkedin.com/feed/' target='_blank' rel="noreferrer">
               <Menu.Item className="menuitem" onSelect={() => { } }>
-                <img src='../../images/linkedin-icon.png' alt='linkedin icon' id="icons" />
+                <img src='/kayllection/public/images/linkedin-icon.png' alt='linkedin icon' id="icons" />
                 Linkedin
               </Menu.Item>
             </a>
 
             <a href='https://github.com/kay0218' target='_blank' rel="noreferrer">
               <Menu.Item className="menuitem" onSelect={() => { } }>
-                <img src='../../images/github-icon.png' alt='github icon' id="icons" />
+                <img src='/kayllection/public/images/github-icon.png' alt='github icon' id="icons" />
                 Github
               </Menu.Item>
             </a>
 
             <Menu.Item className="menuitem bottommenuitem" onSelect={() => console.log('Log Out')}>
-              <img src='../../images/log-out-icon.png' alt='log out icon' id="icons" />
+              <img src='/kayllection/public/images/log-out-icon.png' alt='log out icon' id="icons" />
               Log Out
             </Menu.Item>
           </Menu.Popup>
@@ -48,6 +48,6 @@ export default function BasicMenu() {
 
 function MenuStartIcon() {
   return (
-    <img src='../../images/start-icon.png' alt='start menu icon' id="icons" />
+    <img src='/kayllection/public/images/start-icon.png' alt='start menu icon' id="icons" />
   );
 }
